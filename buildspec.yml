@@ -5,6 +5,7 @@ phases:
         python: 3.8
   build:
     commands:
+      - ls -Al
       - pip install --upgrade pip
       - pip install pipenv --user
       - pipenv install awscli aws-sam-cli

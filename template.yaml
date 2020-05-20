@@ -42,8 +42,7 @@ Resources:
     Properties:
       FunctionName: !GetAtt HelloWorldFunction.Arn
       Action: lambda:InvokeFunction
-      Principal: 123456789012
-
+      Principal: 667862232391
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function

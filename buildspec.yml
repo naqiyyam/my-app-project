@@ -10,6 +10,7 @@ phases:
       - pip install pipenv --user
       - pipenv install awscli aws-sam-cli
       - pipenv run sam package --template-file template.yaml --s3-bucket coupleofbucketsnaqiyya --output-template-file packaged-template.yaml
+      - ls -Al
 artifacts:
   files:
-    - packaged-template.yml
+    - packaged-template.yaml
